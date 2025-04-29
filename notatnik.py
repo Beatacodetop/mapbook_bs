@@ -5,3 +5,16 @@ users = [
     {"name": "Bartosz", "location": "Ostrołęka", "posts": 300},
 
 ]
+
+import folium
+
+import requests
+from bs4 import BeautifulSoup
+
+
+# https://pl.wikipedia.org/wiki/Przybys%C5%82awice_(wojew%C3%B3dztwo_lubelskie)
+
+
+
+
+get_map(users)
