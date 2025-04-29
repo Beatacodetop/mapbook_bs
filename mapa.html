@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_abc65c72c7c33a42c6a88033ff835b89 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_abc65c72c7c33a42c6a88033ff835b89" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_abc65c72c7c33a42c6a88033ff835b89 = L.map(
+                "map_abc65c72c7c33a42c6a88033ff835b89",
+                {
+                    center: [52.23, 21.0],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 6,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_45b4a0e0cd9baa5542a2179847c1b772 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_45b4a0e0cd9baa5542a2179847c1b772.addTo(map_abc65c72c7c33a42c6a88033ff835b89);
+        
+    
+            var marker_459169aafc0c90792569931b59271718 = L.marker(
+                [51.25, 22.566667],
+                {
+}
+            ).addTo(map_abc65c72c7c33a42c6a88033ff835b89);
+        
+    
+        var popup_51f0fc053c7000b37a9d13e7c6837532 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_87f6b990a72311c283289b19de1817b2 = $(`<div id="html_87f6b990a72311c283289b19de1817b2" style="width: 100.0%; height: 100.0%;">Twój znajomy Beata, <br/> miejscowość: Lublin <br/> opublikował 555 postów</div>`)[0];
+                popup_51f0fc053c7000b37a9d13e7c6837532.setContent(html_87f6b990a72311c283289b19de1817b2);
+            
+        
+
+        marker_459169aafc0c90792569931b59271718.bindPopup(popup_51f0fc053c7000b37a9d13e7c6837532)
+        ;
+
+        
+    
+    
+            var marker_e6ee73cc2f6f44b0bd5b99b1f5fb3270 = L.marker(
+                [53.019444, 20.880556],
+                {
+}
+            ).addTo(map_abc65c72c7c33a42c6a88033ff835b89);
+        
+    
+        var popup_84a8ad656319581281fdbc6aec2684b9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9fb896ede9f9d92c47a2d28de60b2a23 = $(`<div id="html_9fb896ede9f9d92c47a2d28de60b2a23" style="width: 100.0%; height: 100.0%;">Twój znajomy Mikołaj, <br/> miejscowość: Przasnysz <br/> opublikował 200 postów</div>`)[0];
+                popup_84a8ad656319581281fdbc6aec2684b9.setContent(html_9fb896ede9f9d92c47a2d28de60b2a23);
+            
+        
+
+        marker_e6ee73cc2f6f44b0bd5b99b1f5fb3270.bindPopup(popup_84a8ad656319581281fdbc6aec2684b9)
+        ;
+
+        
+    
+    
+            var marker_994f37f43248520f8f29465731e52696 = L.marker(
+                [52.408333, 16.934167],
+                {
+}
+            ).addTo(map_abc65c72c7c33a42c6a88033ff835b89);
+        
+    
+        var popup_5cac953e925dc5f6672c9b8af9678a88 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1aa06e87d8581f95595cf61c418fb3a8 = $(`<div id="html_1aa06e87d8581f95595cf61c418fb3a8" style="width: 100.0%; height: 100.0%;">Twój znajomy Krzysztof, <br/> miejscowość: Poznań <br/> opublikował 100 postów</div>`)[0];
+                popup_5cac953e925dc5f6672c9b8af9678a88.setContent(html_1aa06e87d8581f95595cf61c418fb3a8);
+            
+        
+
+        marker_994f37f43248520f8f29465731e52696.bindPopup(popup_5cac953e925dc5f6672c9b8af9678a88)
+        ;
+
+        
+    
+    
+            var marker_8def94232d8cb5de62886abc92e21aed = L.marker(
+                [53.082778, 21.5725],
+                {
+}
+            ).addTo(map_abc65c72c7c33a42c6a88033ff835b89);
+        
+    
+        var popup_649d593a8d2e6d28031926555cdaac40 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_30e0cc4bd0817955495b1f6402576587 = $(`<div id="html_30e0cc4bd0817955495b1f6402576587" style="width: 100.0%; height: 100.0%;">Twój znajomy Bartosz, <br/> miejscowość: Ostrołęka <br/> opublikował 300 postów</div>`)[0];
+                popup_649d593a8d2e6d28031926555cdaac40.setContent(html_30e0cc4bd0817955495b1f6402576587);
+            
+        
+
+        marker_8def94232d8cb5de62886abc92e21aed.bindPopup(popup_649d593a8d2e6d28031926555cdaac40)
+        ;
+
+        
+    
+</script>
+</html>
